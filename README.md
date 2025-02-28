@@ -67,4 +67,4 @@ Troubleshooting
 
 License
 -------
-(Include your license information here, e.g., MIT License.)
+(MIT License.)
