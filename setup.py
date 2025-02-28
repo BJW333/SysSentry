@@ -26,7 +26,7 @@ def main():
     #run the command in the current directory
     try:
         subprocess.run(command, check=True)
-        print("\nBuild complete! Check the 'dist' folder for your app/executable.")
+        print(f"\nBuild complete! Check the {output_dir} folder for your app/executable.")
     except subprocess.CalledProcessError as e:
         print(f"Build failed with error code {e.returncode}.", file=sys.stderr)
 
